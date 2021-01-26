@@ -52,7 +52,7 @@ def files(file_path):
     dic = listdir_dict()
     print(dic) 
     #Cross checking if everything went right
-file='C:/Users/ABC/Downloads/images/'
-files(file)
-
-
+if name == "__main__":
+    folder_path = input("Path of the folder:-")
+    files(folder_path)
+ 
